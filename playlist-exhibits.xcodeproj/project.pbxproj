@@ -12,6 +12,8 @@
 		9427D2FC2110BF2300CD9A1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9427D2FA2110BF2300CD9A1B /* Main.storyboard */; };
 		9427D2FE2110BF2400CD9A1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9427D2FD2110BF2400CD9A1B /* Assets.xcassets */; };
 		9427D3012110BF2400CD9A1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9427D2FF2110BF2400CD9A1B /* LaunchScreen.storyboard */; };
+		9427D3092110DAF600CD9A1B /* ExhibitTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427D3082110DAF600CD9A1B /* ExhibitTrack.swift */; };
+		9427D30B2110DB0000CD9A1B /* Exhibit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9427D30A2110DB0000CD9A1B /* Exhibit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9427D2FD2110BF2400CD9A1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9427D3002110BF2400CD9A1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9427D3022110BF2400CD9A1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9427D3082110DAF600CD9A1B /* ExhibitTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExhibitTrack.swift; sourceTree = "<group>"; };
+		9427D30A2110DB0000CD9A1B /* Exhibit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exhibit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9427D2FA2110BF2300CD9A1B /* Main.storyboard */,
 				9427D2FD2110BF2400CD9A1B /* Assets.xcassets */,
 				9427D2FF2110BF2400CD9A1B /* LaunchScreen.storyboard */,
+				9427D3082110DAF600CD9A1B /* ExhibitTrack.swift */,
+				9427D30A2110DB0000CD9A1B /* Exhibit.swift */,
 				9427D3022110BF2400CD9A1B /* Info.plist */,
 			);
 			path = "playlist-exhibits";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9427D3092110DAF600CD9A1B /* ExhibitTrack.swift in Sources */,
+				9427D30B2110DB0000CD9A1B /* Exhibit.swift in Sources */,
 				9427D2F92110BF2300CD9A1B /* ViewController.swift in Sources */,
 				9427D2F72110BF2300CD9A1B /* AppDelegate.swift in Sources */,
 			);
